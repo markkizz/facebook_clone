@@ -79,7 +79,7 @@ ul {
 }
 
 
-/* new feed */
+/* news feed */
 
 /* status */
 .status {
@@ -108,10 +108,20 @@ hr {
   padding-left: 12px;
 }
 
-.status .card .card-body img {
+.img-status {
   width: 42px;
   height: 42px;
   border-radius: 50%;
+}
+
+#post-area {
+  cursor: text;
+}
+
+.status .card .card-body span {
+  position: relative;
+  right: 18px;
+  top: 10px;
 }
 
 .card-bottom {
@@ -147,7 +157,7 @@ hr {
   width: 135px;
 }
 
-#co-lap {
+#co-lapse {
   width: 50px;
 }
 /* post */
@@ -200,4 +210,89 @@ hr {
   height: 100px;
   margin-left: 20px;
 }
+
+
+
+/* modal */
+
+.bg-modal {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  top: 0;
+  display: none;
+}
+
+#cancel {
+  position: relative;
+  top: 2px;
+  right: 5px;
+  cursor: pointer;
+  padding: 0 5px 0 5px;
+}
+
+.bg-modal .card {
+  position: absolute;
+  left: 395px;
+  top: 60px;
+  width: 538px;
+}
+
+#txt-area {
+  position: relative;
+  right: 18px;
+}
+
+.btn-m {
+  height: 33px;
+  margin: 0 5px 5px 2px;
+  line-height: 33px;
+  background-color: #f5f6f7;
+  border-radius: 18px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.btn-m span {
+  position: relative;
+  left: 5px;
+}
+
+.btn-m span i {
+  margin: 0 6px 0 6px;
+}
+
+.card-footer {
+  font-size: 16px;
+}
+
+.nf {
+  position: relative;
+  top: 6px;
+}
+
+#news-feed-icon {
+  margin: 0 8px 0 8px;
+  width: 34px;
+  height: 34px;
+  background-color: white;
+  border-radius: 50%;
+  position: relative;
+  bottom: 5px;
+  text-align: center;
+}
+
+#news-feed-icon i {
+  font-size: 20px;
+  position: relative;
+  top: 6px;
+}
+
+.fa-circle {
+  font-size: 20px;
+  position: relative;
+  top: 1px;
+}
+
 
