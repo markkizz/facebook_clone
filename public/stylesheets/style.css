@@ -295,4 +295,16 @@ hr {
   top: 1px;
 }
 
+.btn-post {
+  display: flex;
+  justify-content: center;
+}
+
+.btn-post button {
+  width: 95%;
+  height: 28px;
+  margin-top: 8px;
+  font-size: 14px;
+  line-height: 0px;
+}
 

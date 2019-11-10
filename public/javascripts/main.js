@@ -6,7 +6,4 @@ $(document).ready(()=> {
     $('#cancel').on('click', () => {
         $('.bg-modal').hide();
     });
-
-
-
 });
